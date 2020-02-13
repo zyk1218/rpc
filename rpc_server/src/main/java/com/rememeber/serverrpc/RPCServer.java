@@ -76,7 +76,6 @@ public class RPCServer {
                     log.warn(e.getMessage(),e);
                 }
             }
-
         }
     };
 }

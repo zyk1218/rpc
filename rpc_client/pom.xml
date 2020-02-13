@@ -11,5 +11,32 @@
 
     <artifactId>rpc_client</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.remember</groupId>
+            <artifactId>rpc_proto</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.remember</groupId>
+            <artifactId>rpc_codec</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.remember</groupId>
+            <artifactId>rpc_common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.remember</groupId>
+            <artifactId>rpc_transport</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
